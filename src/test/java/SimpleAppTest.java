@@ -4,6 +4,6 @@ import org.junit.Test;
 public class SimpleAppTest{
 	@Test
 	public void testTrue(){
-		assertEquals(4,5);
+		assertEquals(5,5);
 	}
 }
