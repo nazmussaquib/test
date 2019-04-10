@@ -1,2 +1,4 @@
-language: python
-script: pytest
+language: java
+
+# language: python
+# script: pytest
