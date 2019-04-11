@@ -20,7 +20,7 @@ class TestCalculator(object):
 
     def test_add(self):
         res = self.cal.add(2, 3)
-        assert res == 5
+        assert res == 6
 
     def test_sub(self):
         res = self.cal.sub(2, 3)
