@@ -1,4 +1,10 @@
 #language: java
+#
+#language: python
+#script: pytest
 
-language: python
-script: pytest
+matrix:
+        include:
+                - language: python
+                  script: pytest
+                -language: java
