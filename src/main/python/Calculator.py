@@ -12,4 +12,4 @@ class Calculator:
     def div(self, a, b):
         if b == 0:
             raise ZeroDivisionError('divisor cannot be 0')
-        return a / b
+        return a // b
