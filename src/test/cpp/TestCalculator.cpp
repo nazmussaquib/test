@@ -6,7 +6,7 @@ TEST_CASE("calculator works correctly", "[calculator]"){
 	Calculator calc;
 	
 	SECTION("addition works"){
-		REQUIRE(calc.add(2, 3) == 5);
+		REQUIRE(calc.add(3, 3) == 5);
 	}
 
 	SECTION("subtraction works"){
