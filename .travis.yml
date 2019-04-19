@@ -3,3 +3,5 @@ matrix:
         - language: python
           script: pytest
         - language: java
+        - language: cpp
+          script: make && ./cpptest
